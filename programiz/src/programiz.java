@@ -484,7 +484,60 @@ public class programiz{
     }
 }
 */
+/*
+//check prime no.
+import java.util.*;
+public class programiz {
+    public static void main(String[] args) {
+        Scanner in= new Scanner(System.in);
+        System.out.println("Enter a number here:");
+        int n= in.nextInt();
+        int count=0;
+        int i=1;
+        while(i<=n){
+            if(n%i==0){
+                count=count+1;
+                i++;
+            }
+        }
+        if(count==2){
+            System.out.println("Prime");
+        }else{
+            System.out.println("Not Prime");
+        }
+    }
+}
+*/
 
+/*
+//display prime numbers between two intervals
+import java.util.*;
+public class programiz {
+    public static void main(String[] args) {
+        Scanner in= new Scanner(System.in);
+        System.out.print("Enter no.1:");
+        int a= in.nextInt();
+        System.out.print("Enter no.2:");
+        int b= in.nextInt();
+        int i,j;
+
+        for(i=a; i<=b; i++){
+            int count=0;
+            for(j=1; j<=i; j++){
+                if(i%j==0){
+                    count++;
+                }
+            }
+            if(count==2){
+                System.out.println(i);
+        }
+
+        }
+    }
+}
+*/
+
+//
 
 
 
