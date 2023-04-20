@@ -1,3 +1,6 @@
+
+//find factorial using recursion
+
 import java.util.Scanner;
 
 public class recursion_factorial {

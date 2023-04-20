@@ -1,3 +1,6 @@
+
+//check whether the number is an armstrong or not.
+
 import java.util.Scanner;
 
 public class armstrong {

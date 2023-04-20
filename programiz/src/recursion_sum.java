@@ -1,3 +1,6 @@
+
+//find sum of a natural number using recursion
+
 import java.util.Scanner;
 
 public class recursion_sum {
